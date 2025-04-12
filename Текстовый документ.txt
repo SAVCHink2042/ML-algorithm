@@ -1,0 +1,51 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+#define scl static_cast<long long int>
+#define sci static_cast<int>
+#define scd static_cast<long double>
+#define gcd __gcd
+#define vlli vector<vector<lli>> 
+#define vi vector<vector<int>> 
+
+using lli =  long long;
+using ld  =  long double;
+using ull =  unsigned long long;
+
+struct pair_hash {
+    template <class T1, class T2>
+    size_t operator () ( const pair<T1, T2> &pair ) const {
+        return hash<T1>()(pair.first) ^ hash<T2>()(pair.second);
+    }
+};
+
+template < typename T> 
+void print(const vector< T> & vec) {
+    for( int i = 0 ; i < sci(vec.size()); i++ ) 
+	cout<< vec[i]<<" ";
+}
+
+template < typename T> 
+void input( const vector< T > & vec ) {
+    for( int i = 0; i < sci( vec.size() ); i++ ) 
+	cin >> vec[i];
+}
+
+void SAVCH_inc() {
+  int ttt;
+   cin >> ttt;
+   while(ttt--) {
+
+
+   }    
+}
+
+
+int main() {
+   SAVCH_inc()
+}
+
+
+
+
